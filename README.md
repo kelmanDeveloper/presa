@@ -40,4 +40,17 @@ Vue.js-приложение, реализующее карусель с виде
 - Vite
 
 ## Структура проекта
+components/ // Vue-компоненты интерфейса
+├── SlideArrows.vue
+├── SwipeSlide.vue
+├── RotateScreen.vue
+├── VolumeSwitcher.vue
+├── LoadingScreen.vue
+└── VideoPreloader.vue
 
+services/
+└── videoCache.js // Работа с кэшом в IndexedDB
+
+assets/ // Видео, аудио и стили
+App.vue // Главный компонент приложения
+main.js // Точка входа
